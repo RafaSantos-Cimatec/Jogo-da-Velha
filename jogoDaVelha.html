@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<title> Jogo da Velha </title>
+	<link href="icone.ico" rel="icon">
+	<link rel="stylesheet" href="jogoDaVelha.css">
+</head>
+
+<body>
+	<div class="divPrincipal">
+
+		<!-- Mensagem pedindo para escolher o 1º a jogar. Some após o início do jogo -->
+		<h2 id="labelEscPrimJog"> Escolha o 1º a jogar </h2>
+
+		<!-- Botões para escolher qual é o 1º a jogar. -->
+		<div class="divBotoes">
+			<button type="button" class="botaoDivBotoes" id="botaoJogO"> Jogador O </button>
+			<button type="button" class="botaoDivBotoes" id="botaoJogX"> Jogador X </button>
+		</div>
+
+		<!-- Mensagem dizendo de quem é a vez atual. Aperece apenas após o início do jogo -->
+		<h3 id="labelJogAtual"> </h3>
+
+		<!-- Os 3 DIVs abaixo colocam as casas do tabuleiro na tela. Cada casa é um botão -->
+		<div style="align-items: center;">
+			<div class="divCasas">
+				<button type="button" class="botaoCasa" name="botaoCasa"> </button>
+				<button type="button" class="botaoCasa" name="botaoCasa"> </button>
+				<button type="button" class="botaoCasa" style="border-right: none;" name="botaoCasa"> </button>
+			</div>
+		</div>
+		<div>
+			<div class="divCasas">
+				<button type="button" class="botaoCasa" name="botaoCasa"> </button>
+				<button type="button" class="botaoCasa" name="botaoCasa"> </button>
+				<button type="button" class="botaoCasa" style="border-right: none;" name="botaoCasa"> </button>
+			</div>
+		</div>
+		<div>
+			<div class="divCasas">
+				<button type="button" class="botaoCasa" style="border-bottom: none;" name="botaoCasa"> </button>
+				<button type="button" class="botaoCasa" style="border-bottom: none;" name="botaoCasa"> </button>
+				<button type="button" class="botaoCasa" style="border-right: none; border-bottom: none;" name="botaoCasa"> </button>
+			</div>
+		</div>
+
+		<h2 id="labelJogVencedor"> </h2>
+
+	</div>
+
+	<script type="text/javascript" src="jogoDaVelha.js"> </script>
+</body>
+
+</html>

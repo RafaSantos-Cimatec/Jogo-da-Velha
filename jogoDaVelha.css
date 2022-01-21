@@ -1,0 +1,38 @@
+div, body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.divPrincipal {
+	background-color: gray;
+
+	text-align: center;
+	padding: 20px;
+
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.divBotoes {	
+	flex-direction: row;
+}
+.botaoDivBotoes {
+	font-size: 25px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	border-radius: 13px;
+	margin-right: 6px;
+}
+.divCasas {
+	flex-direction: row;
+}
+.botaoCasa {
+	height: 100px;
+	width: 100px;
+	background-color: gray;
+		
+	color: gray;
+	font-size: 50px;
+
+	border: 5px solid black;
+
+	border-left: none;
+	border-top: none;
+}
